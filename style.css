@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    width: 100%;
+    background-color: white;
+    padding-top: 2rem;
+    overflow-x: hidden;
+    position: relative;
+    height: 41rem;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13rem;
+    padding-right: 13rem;
+
+
+}
+
+.about {
+    display: flex;
+    gap: 2rem;
+}
+
+.about input {
+    border: none;
+    color: black;
+    border-bottom: 1px solid black;
+    align-self: baseline;
+}
+
+.about input:hover {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.about a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.about a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    border-radius: 50%;
+    left: 60%;
+    /* display: none; */
+}
+
+.circle:hover {
+    border-color: black;
+}
+
+section1 {
+    display: flex;
+    align-items: space-between;
+    margin-top: 7rem;
+    margin-bottom: 7.4rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+
+
+
+
+
+}
+
+.line {
+    height: 6.4rem;
+    width: 1px;
+    background-color: black;
+    margin-right: 1rem;
+
+}
+
+.text {
+    display: flex;
+    width: 27rem;
+    margin-top: 4rem;
+    margin-bottom: 2.8rem;
+    line-height: 1.3rem;
+
+}
+
+h4 {
+    background-color: red;
+    color: white;
+    width: 12rem;
+    height: 2.2rem;
+    font-size: 15px;
+    text-align: center;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+h3 {
+    padding: 2rem 0rem;
+}
+
+section1 img {
+    left: 67rem;
+    position: absolute;
+    top: 5.2rem;
+    width: 33rem;
+    border-bottom: 1px solid black;
+}
+
+section {
+    padding-top: 1rem;
+    border-top: 1px solid black;
+    display: flex;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+.paragraph {
+    width: 33.33%;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.sp {
+    width: 2.1rem;
+    height: 3px;
+    background-color: red;
+
+}
+
+.both {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 5px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 1rem;
+    cursor: pointer;
+
+}
+
+.dots {
+    font-size: 28px;
+    letter-spacing: 1rem;
+    color: #c0c0c0;
+}
+
+.sp:hover {
+    width: 2.8rem;
+}
+
+.text2 {
+    width: 27rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head2 {
+    width: 13rem;
+    font-size: 27px;
+    line-height: 1.8rem;
+
+}
+
+.head3 {
+    width: 7rem;
+}
+
+.line2 {
+    height: 5.5rem;
+    width: 1px;
+    background-color: black;
+    margin-right: 1rem;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    margin-top: 8.5rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+
+
+}
+
+aside img {
+    width: 25rem;
+    margin-left: 8rem;
+}
+
+.problem {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#footer {
+    padding: 0px;
+    margin-top: 5rem;
+    background: url(./media/runners.jpg);
+    color: white;
+    width: 100%;
+    height: 40rem;
+    background-position: initial;
+    background-size: cover;
+
+}
+
+.colo {
+    background-color: white;
+}
+
+.pro {
+    padding-top: 10rem;
+    padding-left: 45rem;
+}
+
+.control {
+    width: 19rem;
+}
