@@ -42,6 +42,12 @@ header {
     border-bottom: 1px solid black;
 }
 
+.about input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
 .about a {
     color: #a0a0a0;
     text-decoration: none;
@@ -119,6 +125,7 @@ section1 img {
     top: 5.2rem;
     width: 33rem;
     border-bottom: 1px solid black;
+    /* position: fixed; */
 }
 
 section {
